@@ -1,6 +1,4 @@
-/* Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap*/
-/*Small devices (landscape phones, 576px and up)*/
+
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(assets/images/backgrounds/topography/topography.png);
@@ -219,3 +217,4 @@ text-decoration: none;
 @media (min-width: 1200px) { 
 
 }
+
