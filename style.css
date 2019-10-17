@@ -20,6 +20,7 @@ h5 {
 
 p {
     font-family: 'Merriweather', serif;
+    
 }
 
 footer {
@@ -67,8 +68,9 @@ nav {
     margin-left: .6rem;
 }
 .navbar-light .navbar-toggler-icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+
 }
 .navbar-light .navbar-toggler-icon {
     background-image: url(assets/images/hamburger/hamburgerIcon.png);
@@ -77,11 +79,13 @@ nav {
 .navbar-toggler {
     color: whitesmoke;
     margin-right: .6rem;
+    padding: 0%;
+    
 }
 
 .navbar-nav {
     float: right;
-    margin-right: .7rem;
+    margin-right: .4rem;
    
 }
 
@@ -99,7 +103,7 @@ nav {
 .jumbotron {
     color: whitesmoke;
     padding: 7rem 1rem 2rem 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: #e9ecef;
     border-radius: 0rem;
     padding-left: 1.5rem;
@@ -140,7 +144,31 @@ opacity: 0.7;
 text-decoration: none;
 }
 
+.about-img {
+    position: relative;
+    border-radius: 1rem;
+  max-width: 280px;
+ 
+    margin: 5vw 5vw;
+    float: left;
+    width: 35vw;
+}
+
+.about-text {
+    padding: 1rem;
+    padding-top: 3rem;
+    font-size: 1rem;
+
+}
+
+div .container-about {
+    height: 100%;
+    margin: 0rem 1rem;
+    padding-bottom: 26vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 @media (min-width: 568px) {
+    
     .navbar-expand-lg {
       -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
