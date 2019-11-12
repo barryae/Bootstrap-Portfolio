@@ -7,7 +7,9 @@ body {
 .bg-light {
     background-image: url(assets/images/backgrounds/zwartevilt/zwartevilt.png);
 }
-
+a:link{
+    text-decoration: none;
+}
 h2 {
     color: whitesmoke;
     font-family: 'Muli', sans-serif;
@@ -101,22 +103,22 @@ nav {
     padding: 0;
 }
 .jumbotron {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     padding: 7rem 1rem 2rem 1rem;
     margin-bottom: 1rem;
     background-color: #e9ecef;
     border-radius: 0rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    background-image: url(assets/images/appImages/heroApp.jpg);
+    background-image: linear-gradient(rgba(243, 152, 32, 0.5), rgba(192, 192, 100, 0.5)), url(assets/images/appImages/heroApp.jpg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 .display-4 {
-    background: -webkit-linear-gradient(#6cd6d3, #ffffffa8);
+    background: -webkit-linear-gradient(#ffeeb8, #ffefe4a8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+
 }
 
 .jumbotron-fluid {
