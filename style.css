@@ -10,6 +10,10 @@ body {
 a:link{
     text-decoration: none;
 }
+
+.btn{
+    margin: .5em;
+}
 h2 {
     color: whitesmoke;
     font-family: 'Muli', sans-serif;
